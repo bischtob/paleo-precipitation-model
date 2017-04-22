@@ -5,7 +5,7 @@ function [day, lat, precip_amp] = precip_seasonal_amp(kya, So)
 
 %Get toolboxes for this script. We are using the insolation toolbox by
 %Ian Eisenman and Peter Huybers.
-addpath ../../tools/insolation/;
+addpath ./insolation/;
 
 %Get external parameters from 'parameters.m'
 parameters;

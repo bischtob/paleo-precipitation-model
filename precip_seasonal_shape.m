@@ -5,7 +5,7 @@ function [day, lat, precip_shape] = precip_seasonal_shape(kya, So)
 
 %Get toolboxes for this script. We are using the insolation toolbox by
 %Ian Eisenman and Peter Huybers.
-addpath ../../tools/insolation/;
+addpath ./insolation/;
 
 %Get external parameters from 'parameters.m'
 parameters;
@@ -29,7 +29,7 @@ lat          = -90:90; %latitude vector
 %hemispheres and the location of the ITCZ for every day of the year.
 snh          = insolation_lat_int(kya, latg, dayg-seas_lag, [0 90], day_type, So); %area-weighted average insolation in northern hemisphere
 ssh          = insolation_lat_int(kya, latg, dayg-seas_lag, [-90 0], day_type, So);%area-weighted average insolation in southern hemisphere
-ds           = flx_sens*(snh - ssh) + ocean_ht;
+ds           = flx_sens*(snh - ssh); %ocean_ht;
 lat_itcz     = repmat(itcz_sens * ds, [length(lat) 1]);
 
 %Calculate the precipitation amplitude and shape of precipitation at every

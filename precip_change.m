@@ -1,7 +1,7 @@
-function [kya, days, lat, del_precip_amp_ann, del_precip_shape_ann, insol] = precip_change(kya)
-%precip_model takes a time vector specified in kya 
-%and calculates the seasonal cycle of precipitation at every point
-%specified in 'kya' by calling 'precip_seasonal.m'.
+function [kya, days, lat, del_precip_amp_ann, del_precip_shape_ann] = precip_change(kya)
+%precip_change takes a time vector specified in kya 
+%and calculates the annual-mean precipitation change for every kiloyear
+%specified in 'kya'.
 
 display(['Calculating seasonal cycle of precipitation from ', num2str(min(kya), '%d'), 'kya BP to ',num2str(max(kya), '%d'), 'kya BP.']);
 display('This takes a few minutes. So go and grab a coffee.')
