@@ -11,7 +11,7 @@ precip_base  = 10; %Units: [mm day^-1]
 
 %Standard deviation of precipitation. This is an estimate of the width of
 %the precipitation function.
-sig          = 5; %5 %Units: [deg]
+sig          = 5; %Units: [deg]
 
 %Shape of the precipitation distribution.
 %The input parameters are: x: latitude, m:
