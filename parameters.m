@@ -1,5 +1,4 @@
 %This script contains all external parameters for the precipitation model.
-%The units are given in brackets behind the parameter definition.
 
 %All parameter estimates need to be treated with caution as their exact
 %values might be very uncertain.
