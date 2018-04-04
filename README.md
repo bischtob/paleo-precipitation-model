@@ -1,4 +1,7 @@
 # Paleoclimatological Precipitation Model (PPM)
+
+***PYTHON repo is coming... stay tuned.***
+
 This repository contains the MATLAB rainfall change model used in the manuscript 
 "A Conceptual Model for the Response of Tropical Rainfall to Orbital Variations" 
 submitted to Journal of Climate by Bischoff et al. (2017).
