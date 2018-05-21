@@ -3,8 +3,7 @@
 ***PYTHON repo is coming... stay tuned.***
 
 This repository contains the MATLAB rainfall change model used in the manuscript 
-"A Conceptual Model for the Response of Tropical Rainfall to Orbital Variations" 
-submitted to Journal of Climate by Bischoff et al. (2017).
+"A Conceptual Model for the Response of Tropical Rainfall to Orbital Variations".
 
 # Instructions 
 Run this model by executing the funtion 'precip_change'.
